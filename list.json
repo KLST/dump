@@ -1,1 +1,379 @@
-{"_id":{"$oid":"576be3fe6c46a93402054bc8"},"created_on":"2016-05-04T00:00:00","modified_on":"2016-05-04T00:00:00","job_status":[{"name":"Full Time"},{"name":"Part Time"},{"name":"Contractual"},{"name":"Temporary"}],"employment_eligiblity":[{"name":"US-H1 Visa"},{"name":"TN Permit Holder"},{"name":"Green Card Holder"},{"name":"US Citizen"},{"name":"Authorized to work in US"},{"name":"Indian Citizen"},{"name":"Authorized to Work to India"},{"name":"Australian Citizen"}],"currency":[{"name":"INR"},{"name":"USD"},{"name":"AUD"}],"job_type":[{"name":"Application Developer"},{"name":"Application Support Analyst"},{"name":"Associate Developer"},{"name":"Back End Developer"},{"name":"Chief Technology Officer (CTO)"},{"name":"PChief Information Officer (CIO)"},{"name":"Computer Systems Manager"},{"name":"Data Center Support Specialist"},{"name":"Data Quality Manager"},{"name":"Database Administrator"},{"name":"Database Architect/Designer"},{"name":"Desktop Support Manager"},{"name":"Desktop Support Specialist"},{"name":"Developer"},{"name":"Director of Technology"},{"name":"Front End Developer"},{"name":"Graphic/Web Designer"},{"name":"Help Desk Specialist"},{"name":"Help Desk Technician"},{"name":"Information Technology Coordinator"},{"name":"Information Technology Director"},{"name":"Information Technology Manager"},{"name":"IT Support Manager"},{"name":"IT Support Specialist"},{"name":"Java Developer"},{"name":"Junior Software Engineer"},{"name":".NET Developer"},{"name":"Network Architect"},{"name":"Network Engineer"},{"name":"Network Systems Administrator"},{"name":"Programmer Analyst"},{"name":"QA Engineer"},{"name":"Security Specialist"},{"name":"Software Architect"},{"name":"Software Developer"},{"name":"Software Quality Assurance Analyst"},{"name":"Support Specialist"},{"name":"Systems Administrator"},{"name":"Systems Analyst"},{"name":"System Architect"},{"name":"Systems Software Engineer"},{"name":"Team lead/Tech Lead"},{"name":"Technical Operations Officer"},{"name":"Technical Support Engineer"},{"name":"Web Administrator"},{"name":"Web Developer"}],"qualification":[{"name":"10th"},{"name":"+2"},{"name":"Under Graduate"},{"name":"Post Graduate"},{"name":"Master"},{"name":"Doctorate"}],"industry":[{"name":"Other"},{"name":"Agriculture \u0026 Forestry/Wildlife"},{"name":"Business \u0026 Information"},{"name":"Construction/Utilities/Contracting"},{"name":"Education"},{"name":"Finance \u0026 Insurance"},{"name":"Food \u0026 Hospitality"},{"name":"Gaming"},{"name":"Health Services"},{"name":"Information Technology"},{"name":"Motor Vehicle"},{"name":"Natural Resources/Environmental"},{"name":"Real Estate \u0026 Housing"},{"name":"Safety/Security \u0026 Legal"},{"name":"Transportation"}]}
+{
+    "_id": {
+        "$oid": "576be3fe6c46a93402054bc8"
+    },
+    "created_on": "2016-05-04T00:00:00",
+    "modified_on": "2016-05-04T00:00:00",
+    "job_status": [{
+            "name": "Full Time"
+        },
+        {
+            "name": "Part Time"
+        },
+        {
+            "name": "Contractual"
+        },
+        {
+            "name": "Temporary"
+        }
+    ],
+    "employment_eligiblity": [{
+            "name": "US-H1 Visa"
+        },
+        {
+            "name": "TN Permit Holder"
+        },
+        {
+            "name": "Green Card Holder"
+        },
+        {
+            "name": "US Citizen"
+        },
+        {
+            "name": "Authorized to work in US"
+        },
+        {
+            "name": "Indian Citizen"
+        },
+        {
+            "name": "Authorized to Work to India"
+        },
+        {
+            "name": "Australian Citizen"
+        }
+    ],
+    "currency": [{
+            "name": "INR"
+        },
+        {
+            "name": "USD"
+        },
+        {
+            "name": "AUD"
+        }
+    ],
+    "job_type": [{
+            "name": "Application Developer"
+        },
+        {
+            "name": "Application Support Analyst"
+        },
+        {
+            "name": "Associate Developer"
+        },
+        {
+            "name": "Back End Developer"
+        },
+        {
+            "name": "Chief Technology Officer (CTO)"
+        },
+        {
+            "name": "Chief Information Officer (CIO)"
+        },
+        {
+            "name": "Computer Systems Manager"
+        },
+        {
+            "name": "Data Center Support Specialist"
+        },
+        {
+            "name": "Data Quality Manager"
+        },
+        {
+            "name": "Database Administrator"
+        },
+        {
+            "name": "Database Architect/Designer"
+        },
+        {
+            "name": "Desktop Support Manager"
+        },
+        {
+            "name": "Desktop Support Specialist"
+        },
+        {
+            "name": "Developer"
+        },
+        {
+            "name": "Director of Technology"
+        },
+        {
+            "name": "Front End Developer"
+        },
+        {
+            "name": "Graphic/Web Designer"
+        },
+        {
+            "name": "Help Desk Specialist"
+        },
+        {
+            "name": "Help Desk Technician"
+        },
+        {
+            "name": "Information Technology Coordinator"
+        },
+        {
+            "name": "Information Technology Director"
+        },
+        {
+            "name": "Information Technology Manager"
+        },
+        {
+            "name": "IT Support Manager"
+        },
+        {
+            "name": "IT Support Specialist"
+        },
+        {
+            "name": "Java Developer"
+        },
+        {
+            "name": "Junior Software Engineer"
+        },
+        {
+            "name": ".NET Developer"
+        },
+        {
+            "name": "Network Architect"
+        },
+        {
+            "name": "Network Engineer"
+        },
+        {
+            "name": "Network Systems Administrator"
+        },
+        {
+            "name": "Programmer Analyst"
+        },
+        {
+            "name": "QA Engineer"
+        },
+        {
+            "name": "Security Specialist"
+        },
+        {
+            "name": "Software Architect"
+        },
+        {
+            "name": "Software Developer"
+        },
+        {
+            "name": "Software Quality Assurance Analyst"
+        },
+        {
+            "name": "Support Specialist"
+        },
+        {
+            "name": "Systems Administrator"
+        },
+        {
+            "name": "Systems Analyst"
+        },
+        {
+            "name": "System Architect"
+        },
+        {
+            "name": "Systems Software Engineer"
+        },
+        {
+            "name": "Team lead/Tech Lead"
+        },
+        {
+            "name": "Technical Operations Officer"
+        },
+        {
+            "name": "Technical Support Engineer"
+        },
+        {
+            "name": "Web Administrator"
+        },
+        {
+            "name": "Web Developer"
+        }
+    ],
+    "qualification": [{
+            "name": "10th"
+        },
+        {
+            "name": "+2"
+        },
+        {
+            "name": "Under Graduate"
+        },
+        {
+            "name": "Post Graduate"
+        },
+        {
+            "name": "Doctorate"
+        }
+    ],
+    "industry": [{
+            "name": "Accessories/Apparel/Fashion Design"
+        },
+        {
+            "name": "Accounting/Consulting/Taxation"
+        },
+        {
+            "name": "Advertising/Event Management/PR"
+        },
+        {
+            "name ": "Agriculture/Dairy Technology"
+        },
+        {
+            "name": "Airlines/Hotel/Hospitality/Travel/Tourism/Restaurants"
+        },
+        {
+            "name": "Animation/Gaming"
+        },
+        {
+            "name": "Architectural Services/Interior Designing"
+        },
+        {
+            "name": "Auto Ancillary/Automobiles/Components"
+        },
+        {
+            "name": "Banking/Financial Services/Stockbroking/Securities"
+        },
+        {
+            "name": "Banking/Financial Services/Broking"
+        },
+        {
+            "name": "Biotechnology/Pharmaceutical/Clinical Research"
+        },
+        {
+            "name": "Brewery/Distillery"
+        },
+        {
+            "name": "Cement/Construction/Engineering/Metals/Steel/Iron"
+        },
+        {
+            "name": "Ceramics/Sanitaryware"
+        },
+        {
+            "name": "Chemicals/Petro Chemicals/Plastics"
+        },
+        {
+            "name": "Computer Hardware/Networking"
+        },
+        {
+            "name": "Consumer FMCG/Foods/Beverages"
+        },
+        {
+            "name": "Consumer Goods-Durables"
+        },
+        {
+            "name": "Courier/Freight/Transportation/Warehousing"
+        },
+        {
+            "name": "CRM/IT Enabled Services/BPO"
+        },
+        {
+            "name": "Education/Training/Teaching"
+        },
+        {
+            "name": "Electricals/Switchgears"
+        },
+        {
+            "name": "Employment Firms/Recruitment Services Firms"
+        },
+        {
+            "name": "Entertainment/Media/Publishing/Dotcom"
+        },
+        {
+            "name": "Export Houses/Textiles/Merchandise"
+        },
+        {
+            "name": "FacilityManagement"
+        },
+        {
+            "name": "Fertilizers/Pesticides"
+        },
+        {
+            "name": "FoodProcessing"
+        },
+        {
+            "name": "Gems and Jewellery"
+        },
+        {
+            "name": "Glass"
+        },
+        {
+            "name": "Government/Defence"
+        },
+        {
+            "name": "Healthcare/Medicine"
+        },
+        {
+            "name": "HeatVentilation/AirConditioning"
+        },
+        {
+            "name": "Insurance"
+        },
+        {
+            "name": "KPO/Research/Analytics"
+        },
+        {
+            "name": "Law/Legal Firms"
+        },
+        {
+            "name": "Machinery/Equipment Manufacturing/Industrial Products"
+        },
+        {
+            "name": "Mining"
+        },
+        {
+            "name": "NGO/Social Services"
+        },
+        {
+            "name": "Office Automation"
+        },
+        {
+            "name": "Others/Engg.Services/Service Providers"
+        },
+        {
+            "name": "Petroleum/Oil and Gas/Projects/Infrastructure/Power/Non-conventional Energy"
+        },
+        {
+            "name": "Printing/Packaging"
+        },
+        {
+            "name": "Publishing"
+        },
+        {
+            "name": "Real Estate"
+        },
+        {
+            "name": "Retailing"
+        },
+        {
+            "name": "Security/Law Enforcement"
+        },
+        {
+            "name": "Shipping/Marine"
+        },
+        {
+            "name": "Software Services"
+        },
+        {
+            "name": "Steel"
+        },
+        {
+            "name": "Strategy/ManagementConsultingFirms"
+        },
+        {
+            "name": "Telecom Equipment/Electronics/Electronic Devices/RF/Mobile Network/Semi-conductor"
+        },
+        {
+            "name": "Telecom/ISP"
+        },
+        {
+            "name": "Tyres"
+        },
+        {
+            "name": "WaterTreatment/WasteManagement"
+        },
+        {
+            "name": "Wellness/Fitness/Sports"
+        }
+    ]
+}
